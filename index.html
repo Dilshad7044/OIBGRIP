@@ -1,187 +1,45 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" >
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b8f19c38b2.js" crossorigin="anonymous"></script>
-</head>
 <body>
-    <div id="header">
-    <div class="container">
-      <nav>
-        <img src="logo.png" class="logo">
-        
-        <ul>
-         <li><a href="#">HOME</a></li>
-         <li><a href="#services">SKILLS</a></li>
-         <li><a href="#contact">BLOGS</a></li>
-         <li><a href="#">RESUME</a></li>
-         <li><a href="#about">ABOUT</a></li>
-         <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </nav>
-      
-        <table class="tbl">
-          <tr>
-            <td class="td1">
-              <div class="header-text">
-                <p>Web Developer & Designer</p>
-                <h1>Hi, I'm <span>Dilshad</span><br> Ansari from Bihar</h1>
-                
-                
+    <header>
+        <nav>
+            <img class="logo" src="My project (1).png" alt="">
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Pizza</li></a>
+                <a href="#"><li>Shop</li></a>
+                <a href="#"><li>Offer</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+            <div class="icon">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
             </div>
-            </td>
-            <td class="td2">
-<a class="btn_hire" href="Dilshad_resume_pdf.pdf">Hire Me</a>
-            </td>
-            <td class="td3">
-              <span><img class="img1" src="My project-1 (1).png" width="450px" height="450px
-                " alt=""></span>
-            </td>
-          </tr>
-        </table>
-      
-    
-    </div>
-
-    <!--------------------------------About Section ------------------------------------------->
-  <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="about-col-1">
-          <img src="My project-1.png">
+        </nav>
+        <div class="banner">
+            <div class="intro">
+            <div>
+                <h1>Enjoy <span>Pizza</span></h1>
+                <h1>Today</h1>
+            </div>
+            <a href="#" class="btn">Order Now</a>
         </div>
-        <div class="about-col-2">
-        <h1 class="sub-title">About Me</h1>
-        <p>Hi, I'm Dilshad Ansari. I'm basically from bihar but currently I'm styaing in Hyderabad.
-          I've done my graduation in BCA from Maulana Mazharul Haque Arabic & Persian University,Patna with an aggregrate 72.58% in 2021
-          and now I'm doing a MCA from MAulana Azad National Urdu University, Hyderabad.
-        I'm selfmotivated, diciplined and hardworker person. I want to get a job in a any reputted company and
-         my long term goal is achieve a good possition where i can build my career and also help the organization </p>
-         <div class="tab-titles">
-          <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
-          <p class="tab-links" onclick="opentab('education')"> Education </p>
-          <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+        <img src="My project.png" alt="pizza">
         </div>
-        <div class="tab-contents active-link" id="skills">
-        <ul>
-          <li> <span>Java Developer</span>
-             <br> Java Using DSA</li>
-          <li> <span>Web Developement & Designing</span> <br>HTML, CSS & JS </li>
-        </ul>
-      </div>
-      <div class="tab-contents" id="education">
-        <ul>
-          <li> <span>2021-2023</span>
-             <br>MCA from Maulana Azad National Urdu University, Hyderabad</li>
-          <li> <span>2017-2021</span> <br> BCA from Maulana Mazharul Haque Arbic & Persian University, Patna </li>
-        </ul>
-      </div>
-
-      <div class="tab-contents" id="experience">
-        <ul>
-          <li> <span>01 feb to 28 feb 2023 </span>
-             <br> Internship from Oasis Infotech </li>
-          
-        </ul>
-      </div>
-
+        <div class="social_icon">
+            <a href="#" class="fb_icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="twitter_icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="insta_icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="whatsapp_icon"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="linkedin_icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="yt_icon"><i class="fa-brands fa-youtube"></i></i></a>
         </div>
-        
-
-        </div>
-    </div>
-  </div>
-
-  <!------ Services----->
-
-<div id="services">
-  <div class="container">
-    <h1 class="sub-title"> My Services</h1>
-    <div class="services-list">
-      
-      <div>
-        <i class="fa-solid fa-code"></i>
-        <h2>Web Development & Design</h2>
-      <p>web development involves the creation and maintenance of websites. By “website,” 
-        we mean a collection of web pages that are publicly accessible on the internet.</p>
-      <a href="#">Learn more</a>
-    </div>
-      <div>
-        <i class="fa-brands fa-java"></i>
-        <h2>Java Developement</h2>
-      <p>Java is a popular programming language.
-
-        Java is used to develop mobile apps, web apps, desktop apps, games and much more</p>
-      <a href="#">Learn more</a>
-    </div>
-      <div>
-        <i class="fa-solid fa-crop"></i>
-        <h2>UI/UX Design</h2>
-        <p>The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, 
-          rather than on one focused on marketing or programming alone.</p>
-      <a href="#">Learn more</a>
-    </div>
-  </div>
-</div>
-</div>
-
-<!---------Contact--------- -->
-<div id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="contact-left">
-        <h1 class="sub-title">Contact me</h1>
-        <p><i class="fa-solid fa-envelope"></i> ansaridilshad7044@gmail.com</p>
-        <p><i class="fa-solid fa-phone"></i> +917044905542</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/dilshad-ansari-1941671b9/"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://m.facebook.com/dilshad.ansari.5817300?eav=AfYCU1DZRGm_f9vFflRkcnVoHkXEc-Xgb9Hvn0bsssKxinCTpawZaJGR_lY3MqGyVF8&paipv=0"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://www.instagram.com/instra_phobia46/"><i class="fa-brands fa-instagram"></i></a>
-         
-        </div>
-        <a href="Dilshad_resume_pdf.pdf" download class="btn btn2">Download cv</a>
-      </div>
-      <div class="contact-right">
-        <form>
-          <input type="text" name="Name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email Id" required>
-          <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
-          <button type="submit" class="btn btn2">submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <div class="copyright">
-    <p>copyright <i class="fa-sharp fa-regular fa-copyright"></i> made by <i class="fa-solid fa-heart"></i> Dilshad Ansari</p>
-  </div>
-
-</div>
-
-
-
-
-<script>
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontents = document.getElementsByClassName("tab-contents");
-
-  function opentab(tabname){
-    for(tablink of tablinks ){
-      tablink.classList.remove("active-link");
-    }
-
-    for(tabcontent of tabcontents ){
-      tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-
-  }
-</script>
-
-  </body>
+    </header>
+</body>
 </html>
